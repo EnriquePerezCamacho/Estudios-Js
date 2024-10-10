@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Definición del documento HTML5 y configuración del idioma a español -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Título de la página que aparecerá en la pestaña del navegador -->
+    <title>Conversor de Temperatura</title>
+    
+    <!-- Enlace a un archivo de estilo externo llamado "styles.css" para la personalización de la apariencia -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Título principal del conversor -->
+    <h1>Conversor de Temperatura</h1>
+    
+    <!-- Campo de entrada para que el usuario introduzca la temperatura a convertir -->
+    <input type="number" id="temperatura" placeholder="Introduce la temperatura">
+    
+    <!-- Menú desplegable para seleccionar la dirección de la conversión -->
+    <!-- Opción 1: Celsius a Fahrenheit -->
+    <!-- Opción 2: Fahrenheit a Celsius -->
+    <select id="direccion">
+        <option value="CtoF">Celsius a Fahrenheit</option>
+        <option value="FtoC">Fahrenheit a Celsius</option>
+    </select>
+    
+    <!-- Botón para ejecutar la conversión al hacer clic -->
+    <!-- El evento `onclick` debe estar programado en el archivo JS para manejar la conversión -->
+    <button id="convertir">Convertir</button>
+    
+    <!-- Párrafo para mostrar el resultado de la conversión -->
+    <p id="resultado"></p>
+
+    <!-- Enlace al archivo JavaScript externo "Temperatura.js" que contiene la lógica del conversor -->
+    <script src="Ejercicio2.js"></script>
+</body>
+</html>

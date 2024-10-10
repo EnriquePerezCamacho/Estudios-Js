@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Definición del documento como HTML5 y declaración de idioma a español -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3 - Carrito de Compras</title>
+
+    <!-- Enlace a un archivo de estilo CSS externo llamado "styles.css" -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Título principal de la página -->
+    <h1>Gestión de Carrito de Compras</h1>
+    
+    <!-- Campos de entrada para agregar un nuevo producto al carrito -->
+    <!-- Campo para ingresar el nombre del producto -->
+    <input type="text" id="nombre" placeholder="Nombre del producto" required>
+
+    <!-- Campo para ingresar el precio del producto -->
+    <input type="number" id="precio" placeholder="Precio" required>
+
+    <!-- Campo para ingresar la cantidad de unidades a agregar -->
+    <input type="number" id="cantidad" placeholder="Cantidad" required>
+    
+    <!-- Botón para agregar el producto al carrito de compras -->
+    <!-- Se utiliza el evento `onclick` para ejecutar la función `agregarProducto()` al hacer clic -->
+    <button onclick="agregarProducto()">Agregar al Carrito</button>
+
+    <!-- Sección para mostrar el contenido del carrito de compras -->
+    <div id="carrito">
+        <!-- Subtítulo para los productos agregados -->
+        <h2>Productos en el Carrito</h2>
+
+        <!-- Lista para mostrar los productos del carrito. Se llenará dinámicamente con JavaScript -->
+        <ul id="listaCarrito"></ul>
+        
+        <!-- Párrafo para mostrar el total de la compra -->
+        <p id="total"></p>
+    </div>
+
+    <!-- Enlace a un archivo de script externo llamado "script.js" donde se implementa la lógica -->
+    <script src="Ejercicio1.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Declaración del documento HTML5 y configuración del idioma del documento a español -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Título del documento que se muestra en la pestaña del navegador -->
+    <title>Validación de Formulario</title>
+    
+    <!-- Enlace al archivo de estilo externo "styles.css" para personalizar la apariencia del formulario -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Título principal del formulario -->
+    <h1>Formulario de Validación</h1>
+    
+    <!-- Inicio del formulario con id="formulario" para identificarlo en JavaScript -->
+    <form id="formulario">
+        
+        <!-- Etiqueta de texto para el campo de nombre -->
+        <label for="nombre">Nombre:</label>
+        
+        <!-- Campo de entrada para el nombre del usuario con el atributo `required` para validar que no esté vacío -->
+        <input type="text" id="nombre" required>
+        <br> <!-- Salto de línea para separar los campos -->
+
+        <!-- Etiqueta de texto para el campo de edad -->
+        <label for="edad">Edad:</label>
+        
+        <!-- Campo de entrada para la edad del usuario, con tipo `number` para que solo se acepten números -->
+        <input type="number" id="edad" required>
+        <br> <!-- Salto de línea para separar los campos -->
+
+        <!-- Etiqueta de texto para el campo de correo electrónico -->
+        <label for="correo">Correo electrónico:</label>
+        
+        <!-- Campo de entrada para el correo, con tipo `email` para validar automáticamente el formato -->
+        <input type="email" id="correo" required>
+        <br> <!-- Salto de línea para separar los campos -->
+
+        <!-- Botón de envío con tipo `submit` para enviar el formulario -->
+        <button type="submit">Enviar</button>
+    </form>
+
+    <!-- Párrafo vacío donde se mostrarán los mensajes de validación o resultados después de enviar el formulario -->
+    <p id="resultado"></p>
+
+    <!-- Inclusión del archivo JavaScript externo "Formulario.js" que contiene la lógica de validación -->
+    <script src="Ejercicio3.js"></script>
+</body>
+</html>
