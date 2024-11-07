@@ -1,0 +1,19 @@
+Objetivo de la práctica:
+Los alumnos crearán una estructura de una página web utilizando el concepto de include
+en JSP, PHP, y ASP Clásico. El sitio web tendrá las siguientes diferentes
+secciones/páginas y el header debe incluir referencias a Bootstrap para permitir el uso de
+sus componentes.
+Secciones a incluir, se debe incluir contenido simulado para montar la Web:
+
+Inicio: Presentación general del negocio y sus servicios o productos.
+Sobre Nosotros: Información sobre la historia, misión, visión y valores de la empresa.
+Servicios/Productos: Detalle de los servicios ofrecidos o productos disponibles, incluyendo
+descripciones y precios.
+Testimonios: Opiniones de clientes satisfechos que respalden la calidad del negocio.
+Galería: Imágenes de productos, eventos o el ambiente del negocio.
+Contacto: Formulario de contacto, información de ubicación, teléfono y redes sociales.
+Preguntas Frecuentes (FAQ): Respuestas a preguntas comunes que puedan tener los
+clientes.
+Política de Privacidad: Información sobre cómo se manejarán los datos de los usuarios.
+Términos y Condiciones: Detalles sobre las condiciones de uso del sitio web y los
+servicios ofrecidos.
